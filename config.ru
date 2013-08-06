@@ -1,6 +1,6 @@
 require "sinatra"
 get "/" do
-	"Hello ruby, working on this app from Heavybit…"
+	"Hello from SF, working on this app from Heavybit…"
 end
 get "/hello" do
 	"Hello #{params[:name]}"
